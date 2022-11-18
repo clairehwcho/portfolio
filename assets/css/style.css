@@ -1,3 +1,4 @@
+/* Global Scope */
 :root {
     --base: #1d272d;
     --light: #E7E5DF;
@@ -60,6 +61,7 @@ hr {
     border: 0.5px solid var(--medium);
 }
 
+/* Header */
 header {
     width: 90%;
     color: var(--light);
@@ -68,11 +70,9 @@ header {
     padding: 2rem;
     flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transition: all 0.5s ease-in-out;
-    border: 1px solid red;
-
 }
 
 header h4 {
@@ -80,7 +80,6 @@ header h4 {
     font-weight: 800;
     width: 100%;
     text-align: center;
-    border: 1px solid red;
 }
 
 header h4:hover {
@@ -94,9 +93,10 @@ header h4 span {
 header ul {
     width: 100%;
     flex-wrap: wrap;
-    text-align: center;
     font-weight: 700;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 header li {
@@ -113,11 +113,13 @@ header li span {
     color: var(--highlight2);
 }
 
+/* Body */
 main {
     width: 90%;
     margin: 2rem auto;
 }
 
+/* Scroll to top button */
 #topBtn {
     display: none;
     position: fixed;
@@ -139,21 +141,23 @@ main {
     transform: scale(0.98);
 }
 
+/* Introduction */
 .intro {
     width: 100%;
     flex-wrap: wrap;
     margin: 0 auto;
     padding: 2rem;
+    gap: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
     transition: flex-basis 500ms linear;
-    border: 1px solid red;
 }
 
 .intro_left {
-    min-width: 450px;
-    max-height: 100%;
+    width: fit-content;
+    min-height: 130px;
+    padding: 5px;
 }
 
 .intro_greeting {
@@ -163,16 +167,15 @@ main {
 }
 
 .intro_name {
-    width: max-content;
-    font-size: 8rem;
+    font-size: 4rem;
     font-weight: 700;
     color: var(--light);
+
 }
 
 .intro_position {
-    width: max-content;
     display: inline-block;
-    font-size: 3rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--highlight2);
     overflow: hidden;
@@ -184,6 +187,7 @@ main {
         blink-caret 1s step-end infinite;
 }
 
+/* Text typing effect */
 @keyframes typing {
     from {
         width: 0;
@@ -207,13 +211,15 @@ main {
 }
 
 .intro_right {
-    height: 200px;
+    min-height: 200px;
+    padding: 10px;
 }
 
 .intro_right img {
     width: 180px;
 }
 
+/* Main content */
 .content {
     width: 100%;
     margin: 0 auto;
@@ -245,6 +251,7 @@ main {
     margin: 5px 0px;
 }
 
+/* Work */
 .work_column {
     display: flex;
     justify-content: center;
@@ -328,6 +335,7 @@ main {
     height: 100%;
 }
 
+/* Contact me */
 #contact_me button {
     color: var(--highlight2);
     background-color: var(--base);
@@ -343,13 +351,22 @@ main {
     transform: scale(0.98);
 }
 
+/* Footer */
 footer {
     padding: 1rem;
     text-align: center;
     font-size: 1.3rem;
 }
 
+/* For screens larger than 768px*/
 @media screen and (min-width: 768px) {
+    header {
+        gap: 50px;
+    }
+
+    header h4 {
+        width: fit-content;
+    }
     .work_column a {
         flex: 0 0 50%;
         max-width: 50%;
@@ -361,7 +378,9 @@ footer {
     }
 }
 
+/* For screens larger than 992px */
 @media screen and (min-width: 992px) {
+
     header,
     header ul {
         flex-wrap: nowrap;
@@ -369,7 +388,25 @@ footer {
 
     .intro,
     .content {
-        max-width: 80%;
+        max-width: 70%;
     }
+
+    .intro {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .intro_left {
+        height: 200px;
+    }
+
+    .intro_name {
+        font-size: 8rem;
+    }
+
+    .intro_position {
+        font-size: 2.5rem;
+    }
+
 
 }
