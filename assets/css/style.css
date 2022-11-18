@@ -1,0 +1,375 @@
+:root {
+    --base: #1d272d;
+    --light: #E7E5DF;
+    --medium: #b3afa9;
+    --dark: #183547;
+    --highlight1: #44BBA4;
+    --highlight2: #E7BB41;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.75rem;
+    line-height: 1.5;
+    color: var(--medium);
+    background-color: var(--base);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin-bottom: 0.625rem;
+    color: var(--light);
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+h3 {
+    font-size: 3rem;
+}
+
+h4 {
+    font-size: 2.5rem;
+}
+
+h5 {
+    font-size: 2rem;
+}
+
+h6 {
+    font-size: 1.5rem;
+}
+
+hr {
+    width: 100px;
+    margin: 50px auto;
+    border: 0.5px solid var(--medium);
+}
+
+header {
+    width: 90%;
+    color: var(--light);
+    background-color: var(--base);
+    margin: 0 auto;
+    padding: 2rem;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: all 0.5s ease-in-out;
+    border: 1px solid red;
+
+}
+
+header h4 {
+    color: var(--light);
+    font-weight: 800;
+    width: 100%;
+    text-align: center;
+    border: 1px solid red;
+}
+
+header h4:hover {
+    text-shadow: 0px 0px 10px var(--highlight1);
+}
+
+header h4 span {
+    color: var(--highlight1);
+}
+
+header ul {
+    width: 100%;
+    flex-wrap: wrap;
+    text-align: center;
+    font-weight: 700;
+    display: flex;
+}
+
+header li {
+    width: max-content;
+    margin: 0px 17px;
+}
+
+header li:hover {
+    color: var(--highlight2);
+}
+
+header li span {
+    font-size: 1.3rem;
+    color: var(--highlight2);
+}
+
+main {
+    width: 90%;
+    margin: 2rem auto;
+}
+
+#topBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    border: 1px solid var(--highlight1);
+    outline: none;
+    background-color: var(--base);
+    color: var(--light);
+    cursor: pointer;
+    padding: 12px;
+    border-radius: 4px;
+}
+
+#topBtn:hover {
+    box-shadow: 0px 0px 10px var(--highlight1);
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.intro {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    transition: flex-basis 500ms linear;
+    border: 1px solid red;
+}
+
+.intro_left {
+    min-width: 450px;
+    max-height: 100%;
+}
+
+.intro_greeting {
+    font-size: 1.7rem;
+    color: var(--highlight1);
+    text-transform: uppercase;
+}
+
+.intro_name {
+    width: max-content;
+    font-size: 8rem;
+    font-weight: 700;
+    color: var(--light);
+}
+
+.intro_position {
+    width: max-content;
+    display: inline-block;
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--highlight2);
+    overflow: hidden;
+    border-right: 0.1em solid var(--highlight2);
+    white-space: nowrap;
+    margin: 0 auto;
+    animation:
+        typing 3.5s steps(40, end),
+        blink-caret 1s step-end infinite;
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+@keyframes blink-caret {
+
+    from,
+    to {
+        border-color: transparent
+    }
+
+    50% {
+        border-color: var(--highlight2);
+    }
+}
+
+.intro_right {
+    height: 200px;
+}
+
+.intro_right img {
+    width: 180px;
+}
+
+.content {
+    width: 100%;
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.content_row {
+    width: 90%;
+    margin: 0 auto;
+    margin-bottom: 4rem;
+    text-align: left;
+}
+
+.content_row h3 {
+    padding: 1rem 0 2rem 0;
+}
+
+.content_row span {
+    color: var(--highlight1);
+}
+
+.content_row ul {
+    font-size: 70%;
+    list-style: circle;
+    margin-left: 40px;
+}
+
+.content_row li {
+    margin: 5px 0px;
+}
+
+.work_column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 0 100%;
+    flex-wrap: wrap;
+    transition: flex-basis 500ms linear;
+}
+
+.top_work_card {
+    max-width: 100%;
+    height: 300px;
+    background-color: var(--dark);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    transition: 0.2s all;
+    margin: 1.5rem;
+}
+
+.work_card {
+    max-width: 100%;
+    height: 300px;
+    background-color: var(--dark);
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1.5rem;
+    transition: 0.2s all;
+    margin: 1.5rem;
+}
+
+.top_work_card:hover,
+.work_card:hover {
+    box-shadow: 0px 0px 10px var(--highlight1);
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+.work_descr {
+    width: 50%;
+    height: 100%;
+    padding: 1rem;
+}
+
+.work_title {
+    color: var(--highlight2);
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.work_about {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.work_tech span {
+    font-size: 1.4rem;
+    font-weight: 600;
+    color: black;
+    background-color: var(--highlight1);
+    margin: 0 5px;
+    padding: 3px;
+}
+
+.work_img {
+    padding: 1.5rem;
+    max-width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.work_img img {
+    width: 100%;
+    height: 100%;
+}
+
+#contact_me button {
+    color: var(--highlight2);
+    background-color: var(--base);
+    border: 1px solid var(--highlight2);
+    border-radius: 7px;
+    margin: 10px;
+    padding: 15px;
+}
+
+#contact_me button:hover {
+    box-shadow: 0px 0px 10px var(--highlight2);
+    cursor: pointer;
+    transform: scale(0.98);
+}
+
+footer {
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.3rem;
+}
+
+@media screen and (min-width: 768px) {
+    .work_column a {
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .work_img img {
+        min-width: 100%;
+        min-height: 100%;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    header,
+    header ul {
+        flex-wrap: nowrap;
+    }
+
+    .intro,
+    .content {
+        max-width: 80%;
+    }
+
+}
