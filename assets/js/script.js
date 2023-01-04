@@ -1,5 +1,5 @@
 // Text typing effect
-var TextType = function (el, toRotate, period) {
+const TextType = function (el, toRotate, period) {
     this.toRotate = toRotate;
     this.el = el;
     this.loopNum = 0;
@@ -10,8 +10,8 @@ var TextType = function (el, toRotate, period) {
 };
 
 TextType.prototype.tick = function () {
-    var i = this.loopNum % this.toRotate.length;
-    var fullTxt = this.toRotate[i];
+    const i = this.loopNum % this.toRotate.length;
+    const fullTxt = this.toRotate[i];
 
     if (this.isDeleting) {
         this.txt = fullTxt.substring(0, this.txt.length - 1);
@@ -21,8 +21,8 @@ TextType.prototype.tick = function () {
 
     this.el.innerHTML = '<span class="wrap">' + this.txt + '</span>';
 
-    var that = this;
-    var delta = 150 - Math.random() * 100;
+    const that = this;
+    const delta = 150 - Math.random() * 100;
 
     if (this.isDeleting) { delta /= 2; }
 
@@ -41,7 +41,7 @@ TextType.prototype.tick = function () {
 };
 
 window.onload = function () {
-    var elements = document.getElementsByClassName('intro_position');
+    const elements = document.getElementsByClassName('intro_position');
     for (var i = 0; i < elements.length; i++) {
         var toRotate = elements[i].getAttribute('data-type');
         var period = elements[i].getAttribute('data-period');
@@ -52,7 +52,7 @@ window.onload = function () {
 };
 
 // Scroll to top button
-var topButton = document.getElementById("topBtn");
+const topButton = document.getElementById("topBtn");
 
 window.onscroll = function () { scrollFunction() };
 
