@@ -102,6 +102,7 @@ header {
   transition: all 0.5s linear;
   margin: 0 auto;
   padding: 1rem;
+  transition: all 0.5s linear;
 }
 
 .main-content-section-header {
@@ -432,4 +433,16 @@ footer i:hover {
 }
 
 /* For screens larger than 992px */
-@media screen and (min-width: 992px) {}
+@media screen and (min-width: 992px) {
+  header {
+    width: 700px;
+  }
+
+  .main-content-section {
+    width: 700px;
+  }
+
+  #resume-section {
+    width: 700px;
+  }
+}
