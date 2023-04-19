@@ -82,7 +82,7 @@ form {
 
 body {
   height: 100%;
-  color: var(--medium);
+  color: var(--light);
   background-color: var(--base);
 }
 
@@ -121,6 +121,7 @@ h6 {
 
 p {
   font-size: 1rem;
+  color: var(--light);
   margin: 0;
   padding: 0;
 }

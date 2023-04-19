@@ -8,7 +8,7 @@ const Header = (props) => {
 
     return (
         <header>
-            <div className="logo">
+            <div id="logo">
                 <Link to="/" className="link">
                     <h5>
                         HYUNG WON <span>CHO</span>
@@ -16,8 +16,8 @@ const Header = (props) => {
                 </Link>
             </div>
 
-            <nav className="header-nav">
-                <ul className="header-nav-ul">
+            <nav id="header-nav">
+                <ul id="header-nav-ul">
                     <li>
                         <Link to="#about-me" className="link">About me</Link>
                     </li>
