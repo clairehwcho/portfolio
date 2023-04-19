@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import WorkImg from '../../../../../assets/img/work/roadtrip-weather-planner.png'
+import PortfolioImg from '../../../../assets/img/portfolio/roadtrip-weather-planner.png'
 
 const RoadtripWeatherPlanner = (props) => {
     return (
-        <div className="work-card" id="roadtrip-weather-planner-work-card">
-            <div className="work-card-header">
-                <h5 className="work-title">
+        <div className="portfolio-card" id="roadtrip-weather-planner-portfolio-card">
+            <div className="portfolio-card-header">
+                <h5 className="portfolio-title">
                     Roadtrip Weather Planner
                 </h5>
-                <h6 className="work-link">
+                <h6 className="portfolio-link">
                     <Link
                         to="https://github.com/clairehwcho/road-trip-weather-planner"
                         target="_blank"
@@ -25,12 +25,12 @@ const RoadtripWeatherPlanner = (props) => {
                     </Link>
                 </h6>
             </div>
-            <div className="work-card-body">
-                <p className="work-description">
+            <div className="portfolio-card-body">
+                <p className="portfolio-description">
                     A group project to provide the weather forecast for cities you are travelling to by
                     fetching city coordinates and weather conditions data from third-party APIs.
                 </p>
-                <ul className="work-tech-list">
+                <ul className="portfolio-tech-list">
                     <li>
                         HTML
                     </li>
@@ -50,8 +50,8 @@ const RoadtripWeatherPlanner = (props) => {
                         GitHub Pages
                     </li>
                 </ul>
-                <div className="work-img">
-                    <img src={WorkImg} alt="roadtrip-weather-planner" />
+                <div className="portfolio-img">
+                    <img src={PortfolioImg} alt="roadtrip-weather-planner" />
                 </div>
             </div>
         </div >

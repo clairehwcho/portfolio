@@ -1,12 +1,22 @@
-import Header from './components/Header';
-import Main from './components/Main/Main';
+import { Routes, Route } from 'react-router-dom';
+import Header from './components/Header/Header';
 import './App.css';
+import AboutMe from './components/Main/AboutMe/AboutMe';
+import Portfolio from './components/Main/Portfolio/Portfolio';
+import Contact from './components/Main/Contact/Contact';
 
 function App () {
   return (
-    <div className="page-wrapper" id="app">
+    <div id="app">
       <Header />
-      <Main />
+      <hr />
+      <main>
+        <Routes>
+          <Route path="/" element={<AboutMe />} />
+          <Route path="/portfolio" element={<Portfolio />} />
+          <Route path="/contact" element={<Contact />} />
+        </Routes>
+      </main>
     </div >
   );
 }

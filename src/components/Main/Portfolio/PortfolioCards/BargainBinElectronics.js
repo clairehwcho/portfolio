@@ -1,15 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import WorkImg from '../../../../../assets/img/work/bargain-bin-electronics.jpeg'
+import PortfolioImg from '../../../../assets/img/portfolio/bargain-bin-electronics.jpeg'
 
 const BargainBinElectronics = (props) => {
     return (
-        <div className="work-card" id="bargain-bin-electronics-work-card">
-            <div className="work-card-header">
-                <h5 className="work-title">
+        <div className="portfolio-card" id="bargain-bin-electronics-portfolio-card">
+            <div className="portfolio-card-header">
+                <h5 className="portfolio-title">
                     Bargain Bin Electronics
                 </h5>
-                <h6 className="work-link">
+                <h6 className="portfolio-link">
                     <Link
                         to="https://github.com/clairehwcho/bargain-bin-electronics"
                         target="_blank"
@@ -25,11 +25,11 @@ const BargainBinElectronics = (props) => {
                     </Link>
                 </h6>
             </div>
-            <div className="work-card-body">
-                <p className="work-description">
+            <div className="portfolio-card-body">
+                <p className="portfolio-description">
                     A group project to build an e-commerce marketplace app for buying and selling electronic items.
                 </p>
-                <ul className="work-tech-list">
+                <ul className="portfolio-tech-list">
                     <li>
                         HTML
                     </li>
@@ -61,8 +61,8 @@ const BargainBinElectronics = (props) => {
                         Heroku
                     </li>
                 </ul>
-                <div className="work-img">
-                    <img src={WorkImg} alt="bargain-bin-electronics" />
+                <div className="portfolio-img">
+                    <img src={PortfolioImg} alt="bargain-bin-electronics" />
                 </div>
             </div>
         </div >
