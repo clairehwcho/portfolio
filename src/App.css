@@ -100,7 +100,7 @@ header {
   flex-direction: column;
   align-items: center;
   transition: all 0.5s linear;
-  margin: 0;
+  margin: 0 auto;
   padding: 1rem;
 }
 
@@ -129,6 +129,7 @@ header {
   display: flex;
   flex-direction: column;
   align-items: center;
+  transition: all 0.5s linear;
 }
 
 #intro-img {
@@ -321,7 +322,7 @@ header {
 
 /* --- Resume component --- */
 #resume-section {
-  width: 100%;
+  width: 290px;
   margin: 0 auto;
 }
 
@@ -382,3 +383,53 @@ footer i:hover {
   color: var(--medium);
   padding-bottom: 1rem;
 }
+
+/* For screens larger than 768px*/
+@media screen and (min-width: 768px) {
+  header {
+    width: 90%;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  #logo {
+    width: fit-content;
+  }
+
+  #header-nav {
+    width: fit-content;
+  }
+
+  #header-nav-ul {
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  #header-nav-ul li {
+    font-size: 1rem;
+  }
+
+  .main-content-section {
+    width: 90%;
+  }
+
+  #about-me-section {
+    max-width: 90%;
+  }
+
+  #about-me-section .main-content-section-body-row:first-of-type {
+    flex-direction: row;
+  }
+
+  #intro-img {
+    width: fit-content;
+    margin-right: 1rem;
+  }
+
+  #resume-section {
+    width: 90%;
+  }
+}
+
+/* For screens larger than 992px */
+@media screen and (min-width: 992px) {}

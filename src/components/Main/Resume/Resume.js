@@ -10,7 +10,7 @@ const Resume = (props) => {
         <section className="main-content-section" id="resume-section">
             <h2 className="main-content-section-header">Resume</h2>
             <div className="main-content-section-body">
-                <p>Download my resume: <Link to="" onClick={tbu} className="link"><span id="resume-download-btn">resume.pdf <i class="bi bi-download"></i></span></Link></p>
+                <p>Download my <Link to="" onClick={tbu} className="link"><span id="resume-download-btn">resume.pdf <i className="bi bi-download"></i></span></Link></p>
                 <p>Technologies that I can use:</p>
                 <ul>
                     <li>
