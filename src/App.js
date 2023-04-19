@@ -4,6 +4,7 @@ import './App.css';
 import AboutMe from './components/Main/AboutMe/AboutMe';
 import Portfolio from './components/Main/Portfolio/Portfolio';
 import Contact from './components/Main/Contact/Contact';
+import Resume from './components/Main/Resume/Resume';
 import Footer from './components/Footer';
 
 function App () {
@@ -16,6 +17,7 @@ function App () {
           <Route path="/" element={<AboutMe />} />
           <Route path="/portfolio" element={<Portfolio />} />
           <Route path="/contact" element={<Contact />} />
+          <Route path="/resume" element={<Resume />} />
         </Routes>
       </main>
       <hr />

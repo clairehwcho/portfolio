@@ -182,16 +182,6 @@ header {
   white-space: nowrap;
 }
 
-#about-me-section ul {
-  font-size: 80%;
-  list-style: circle;
-  padding: 0 0 0 1rem;
-}
-
-#about-me-section li {
-  margin: 5px 0px;
-}
-
 #about-me-section span {
   color: var(--highlight1);
 }
@@ -329,6 +319,39 @@ header {
   transition: all 0.1s ease-in-out;
 }
 
+/* --- Resume component --- */
+#resume-section {
+  width: 100%;
+  margin: 0 auto;
+}
+
+#resume-section p {
+  margin: 0.5rem 0;
+  padding: 0;
+}
+
+#resume-download-btn {
+  color: var(--highlight2);
+}
+
+#resume-download-btn:hover {
+  text-decoration: underline;
+}
+
+#resume-section ul {
+  font-size: 80%;
+  list-style: circle;
+  padding: 0 0 0 1rem;
+}
+
+#resume-section li {
+  margin: 5px 0px;
+}
+
+#resume-section ul span {
+  color: var(--highlight1);
+}
+
 /* --- Footer component --- */
 footer {
   display: flex;
@@ -355,5 +378,7 @@ footer i:hover {
 
 .footer-row:last-of-type {
   font-size: 0.8rem;
-  color: var(--medium)
+  font-weight: 600;
+  color: var(--medium);
+  padding-bottom: 1rem;
 }
