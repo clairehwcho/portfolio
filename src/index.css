@@ -1,4 +1,4 @@
-/* RESET CSS */
+/* --- RESET CSS --- */
 * {
   margin: 0;
   padding: 0;
@@ -13,12 +13,6 @@ body {
   font-size: 1rem;
   line-height: 1;
   font-family: sans-serif;
-}
-
-header,
-main,
-footer {
-  width: 100%;
 }
 
 h1,
@@ -67,67 +61,4 @@ ul {
 
 form {
   width: 100%;
-}
-
-/* GLOBAL STYLING */
-:root {
-  --base: #1d272d;
-  --light: #E7E5DF;
-  --medium: #b3afa9;
-  --dark: #183547;
-  --highlight1: #44BBA4;
-  --highlight2: #E7BB41;
-  --border-radius: 7px;
-}
-
-body {
-  height: 100%;
-  color: var(--light);
-  background-color: var(--base);
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-weight: 800;
-}
-
-h1 {
-  font-size: 4rem;
-}
-
-h2 {
-  font-size: 3.5rem;
-}
-
-h3 {
-  font-size: 3rem;
-}
-
-h4 {
-  font-size: 2.5rem;
-}
-
-.h5 {
-  font-size: 2rem;
-}
-
-h6 {
-  font-size: 1.5rem;
-}
-
-p {
-  font-size: 1rem;
-  color: var(--light);
-  margin: 0;
-  padding: 0;
-}
-
-hr {
-  width: 100px;
-  margin: 50px auto;
-  border: 0.5px solid var(--medium);
 }

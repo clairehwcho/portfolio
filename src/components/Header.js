@@ -7,12 +7,12 @@ const Header = (props) => {
     };
 
     return (
-        <header>
+        <div id="header">
             <div id="logo">
                 <Link to="/" className="link">
-                    <h5>
+                    <h1>
                         HYUNG WON <span>CHO</span>
-                    </h5>
+                    </h1>
                 </Link>
             </div>
 
@@ -32,7 +32,7 @@ const Header = (props) => {
                     </li>
                 </ul>
             </nav>
-        </header >
+        </div>
     );
 };
 

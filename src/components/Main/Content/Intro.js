@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Intro = (props) => {
     return (
-        <section id="intro-section">
+        <div className="main-content-section" id="intro-section">
             <div className="intro-section-column">
                 <p id="intro-greeting">HELLO WORLD</p>
                 <p id="intro-name">I'm Claire.</p>
@@ -19,12 +19,13 @@ const Intro = (props) => {
                     repeat={Infinity}
                     cursor={true}
                     className={'intro-position'}
+                    style={{color: 'var(--highlight2)'}}
                 />
             </div>
             <div className="intro-section-column">
                 <img id="intro-img" src={coder} alt="Woman Coding" />
             </div>
-        </section >
+        </div>
     );
 };
 

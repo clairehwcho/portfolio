@@ -1,5 +1,28 @@
-/* MOBILE FIRST DESIGN */
-/* Wrapper */
+/* --- MOBILE FIRST DESIGN --- */
+/* --- GLOBAL STYLING */
+:root {
+  --base: #1d272d;
+  --light: #E7E5DF;
+  --medium: #b3afa9;
+  --dark: #183547;
+  --highlight1: #44BBA4;
+  --highlight2: #E7BB41;
+  --border-radius: 7px;
+}
+
+#app {
+  min-width: 320px;
+  min-height: 100vh;
+  color: var(--light);
+  background-color: var(--base);
+}
+
+hr {
+  width: 100px;
+  margin: 50px auto;
+  border: 0.5px solid var(--medium);
+}
+
 .wrapper,
 .full-width {
   width: 100%;
@@ -12,11 +35,8 @@
   flex-direction: column;
 }
 
-/* Header */
-header {
-  min-width: 320px;
-  color: var(--light);
-  background-color: var(--base);
+/* --- Header component --- */
+#header {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,9 +53,8 @@ header {
   align-items: center;
 }
 
-#logo h5 {
-  color: var(--light);
-  font-size: 1.9rem;
+#logo h1 {
+  font-size: 2rem;
   font-weight: 800;
   text-align: center;
   white-space: nowrap;
@@ -43,12 +62,12 @@ header {
   padding: 0.5rem 0;
 }
 
-#logo h5:hover {
+#logo h1:hover {
   text-shadow: 0px 0px 10px var(--highlight2);
   transition: all 0.2s ease-in-out;
 }
 
-#logo h5 span {
+#logo h1 span {
   color: var(--highlight2);
 }
 
@@ -84,19 +103,36 @@ header {
   color: var(--highlight2);
 }
 
-/* Main */
-main {
-  min-width: 320px;
-  background-color: var(--base);
+/* --- Main component --- */
+#main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* Introduction Section */
-#intro-section {
+.main-content-section {
   width: 300px;
   display: flex;
+  flex-direction: column;
   align-items: center;
   margin: 0 auto;
+  padding: 0.5rem;
   transition: all 0.5s linear;
+  border: 1px solid red;
+}
+
+.main-content-section-heading {
+  font-weight: 700;
+}
+
+.main-content-section p {
+  color: var(--medium);
+}
+
+/* --- Intro component --- */
+#intro-section {
+  flex-direction: row;
+  align-items: space-between;
 }
 
 .intro-section-column:nth-of-type(1) {
@@ -105,7 +141,6 @@ main {
   flex-direction: column;
   align-items: flex-start;
   margin: 0 auto;
-  padding: 1rem;
 }
 
 .intro-section-column:nth-of-type(1) p {
@@ -121,17 +156,15 @@ main {
 }
 
 #intro-name {
-  font-size: 1.6rem;
   color: var(--light);
+  font-size: 1.6rem;
   font-weight: 700;
   margin: 0;
   padding: 0;
 }
 
 .intro-position {
-  color: var(--highlight2);
   display: inline-block;
-  font-size: 0.8rem;
   font-weight: 700;
   margin: 0;
   padding: 0;
@@ -140,9 +173,26 @@ main {
 }
 
 .intro-section-column:nth-of-type(2) {
-  padding: 10px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
 }
 
 #intro-img {
   width: 80px;
+}
+
+/* --- AboutMe component --- */
+#about-me-section ul {
+  font-size: 80%;
+  list-style: circle;
+  padding: 0 0 0 1rem;
+}
+
+#about-me-section li {
+  margin: 5px 0px;
+}
+
+#about-me-section span {
+  color: var(--highlight1);
 }

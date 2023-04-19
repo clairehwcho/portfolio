@@ -1,15 +1,15 @@
 import Intro from './Content/Intro';
 import AboutMe from './Content/AboutMe';
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Main = (props) => {
     return (
-        <main>
+        <div id="main">
+            <hr />
             <Intro />
-            <hr/>
+            <hr />
             <AboutMe />
-        </main>
+        </div>
     );
 };
 
