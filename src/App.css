@@ -19,7 +19,6 @@
 
 hr {
   width: 100px;
-  margin: 50px auto;
   border: 0.5px solid var(--medium);
 }
 
@@ -37,6 +36,7 @@ hr {
 
 /* --- Header component --- */
 #header {
+  width: 100%;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -79,23 +79,20 @@ hr {
 }
 
 #header-nav-ul {
-  width: 300px;
+  width: 290px;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
-  flex-wrap: wrap;
   margin: 0;
   padding: 0;
 }
 
 #header-nav-ul li {
-  width: 50%;
+  font-size: 0.9rem;
   font-weight: 700;
-  text-align: center;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0.2rem;
   white-space: nowrap;
 }
 
@@ -111,18 +108,17 @@ hr {
 }
 
 .main-content-section {
-  width: 300px;
+  min-width: 290px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 0 auto;
-  padding: 0.5rem;
+  margin: 1rem;
   transition: all 0.5s linear;
-  border: 1px solid red;
 }
 
-.main-content-section-heading {
+.main-content-section-header {
   font-weight: 700;
+  margin-bottom: 1rem;
 }
 
 .main-content-section p {
@@ -131,7 +127,8 @@ hr {
 
 /* --- Intro component --- */
 #intro-section {
-  flex-direction: row;
+  width: 290px;
+  display: flex;
   align-items: space-between;
 }
 
@@ -195,4 +192,81 @@ hr {
 
 #about-me-section span {
   color: var(--highlight1);
+}
+
+/* --- Work component --- */
+.work-card {
+  width: 100%;
+  height: fit-content;
+  background-color: var(--dark);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 2rem;
+  transition: all 0.5s linear;
+}
+
+.work-card:hover {
+  box-shadow: 0px 0px 10px var(--highlight1);
+}
+
+.work-card-header {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.work-title {
+  color: var(--highlight2);
+  font-weight: 700;
+}
+
+.work-link {
+  color: var(--highlight1);
+  font-weight: 700;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.work-link .link:hover {
+  text-decoration: underline;
+}
+
+.work-link span {
+  margin: 0 0.5rem;
+}
+
+.work-card-body {
+  width: 100%;
+}
+
+.work-tech-list {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 0 1rem 0;
+  padding: 0;
+  gap: 0.5rem;
+}
+
+.work-tech-list li {
+  color: var(--base);
+  background-color: var(--highlight1);
+  font-size: 0.8rem;
+  font-weight: 600;
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+.work-img {
+  width: 100%;
+}
+
+.work-img img {
+  width: 100%;
 }

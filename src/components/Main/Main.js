@@ -1,14 +1,16 @@
+import React from 'react';
 import Intro from './Content/Intro';
 import AboutMe from './Content/AboutMe';
-import React from 'react';
+import Work from './Content/Work/Work';
 
 const Main = (props) => {
     return (
         <div id="main">
-            <hr />
             <Intro />
             <hr />
             <AboutMe />
+            <hr />
+            <Work />
         </div>
     );
 };

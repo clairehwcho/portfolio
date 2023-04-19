@@ -54,7 +54,6 @@ ul {
 .link:visited,
 .link:hover,
 .link:active {
-  width: 100%;
   color: unset;
   text-decoration: none;
 }

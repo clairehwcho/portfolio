@@ -4,7 +4,7 @@ import { TypeAnimation } from 'react-type-animation';
 
 const Intro = (props) => {
     return (
-        <div className="main-content-section" id="intro-section">
+        <div id="intro-section">
             <div className="intro-section-column">
                 <p id="intro-greeting">HELLO WORLD</p>
                 <p id="intro-name">I'm Claire.</p>
