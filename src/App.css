@@ -89,9 +89,7 @@ header {
   white-space: nowrap;
 }
 
-#header-nav-ul li .link:hover,
-#header-nav-ul li .link:active,
-#header-nav-ul li .link:focus {
+#header-nav-ul li .link:hover {
   color: var(--highlight2);
 }
 
@@ -332,10 +330,30 @@ header {
 }
 
 /* --- Footer component --- */
-#contact-section i {
+footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.footer-row {
+  width: 290px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
+  padding: 0.5rem 0;
+}
+
+footer i {
   font-size: 1.5rem;
 }
 
-#contact-section i:hover {
+footer i:hover {
   color: var(--highlight2);
+}
+
+.footer-row:last-of-type {
+  font-size: 0.8rem;
+  color: var(--medium)
 }
