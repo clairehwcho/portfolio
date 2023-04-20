@@ -385,6 +385,23 @@ footer i:hover {
   padding-bottom: 1rem;
 }
 
+/* --- ScrollButton component --- */
+#scroll-btn {
+  font-size: 2rem;
+  color: var(--highlight2);
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  cursor: pointer;
+}
+
+#scroll-btn:hover {
+  color: var(--highlight1);
+
+  cursor: pointer;
+}
+
 /* For screens larger than 768px*/
 @media screen and (min-width: 768px) {
   header {

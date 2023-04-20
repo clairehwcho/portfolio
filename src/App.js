@@ -6,6 +6,7 @@ import Portfolio from './components/Main/Portfolio/Portfolio';
 import Contact from './components/Main/Contact/Contact';
 import Resume from './components/Main/Resume/Resume';
 import Footer from './components/Footer';
+import ScrollButton from './components/ScrollButton';
 
 function App () {
   return (
@@ -22,6 +23,7 @@ function App () {
       </main>
       <hr />
       <Footer />
+      <ScrollButton />
     </div >
   );
 }
