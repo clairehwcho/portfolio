@@ -3,7 +3,7 @@
 
 <!-- omit in toc -->
 ## Description
-This is a single-page react portfolio app with responsive designs with mobile-first approach.
+This is a single-page portfolio app using react with responsive designs with mobile-first approach.
 
 
 You can check out the deployed application from the link below:<br>
