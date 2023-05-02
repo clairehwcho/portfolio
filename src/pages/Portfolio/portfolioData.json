@@ -1,0 +1,59 @@
+[
+    {
+        "title": "LuxBox",
+        "githubURL": "https://github.com/clairehwcho/luxbox-mern-app",
+        "deployedURL": "https://luxbox-mern-app.herokuapp.com/",
+        "desc": "A group project to build a MERN app for an e-commerce platform where users can shop luxury goods.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "Material-UI",
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "React.js",
+            "Apollo GraphQL",
+            "MongoDB",
+            "MongoDB Atlas",
+            "Mongoose",
+            "Stripe",
+            "JSON Web Tokens",
+            "Heroku"
+        ],
+        "imageName": "luxbox.png"
+    },
+    {
+        "title": "Bargain Bin Electronics",
+        "githubURL": "https://github.com/clairehwcho/bargain-bin-electronics",
+        "deployedURL": "http://bargain-bin-electronics.herokuapp.com/",
+        "desc": "A group project to build an e-commerce marketplace app for buying and selling electronic items.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "Node.js",
+            "Express.js",
+            "Handlebars.js",
+            "MySQL",
+            "Sequelize",
+            "Heroku"
+        ],
+        "imageName": "bargain-bin-electronics.jpeg"
+    },
+    {
+        "title": "Roadtrip Weather Planner",
+        "githubURL": "https://github.com/clairehwcho/road-trip-weather-planner",
+        "deployedURL": "https://clairehwcho.github.io/road-trip-weather-planner/",
+        "desc": "A group project to provide the weather forecast for cities you are travelling to by fetching city coordinates and weather conditions data from third-party APIs.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "Materialize",
+            "JavaScript",
+            "Third-party APIs",
+            "GitHub Pages"
+        ],
+        "imageName": "roadtrip-weather-planner.png"
+    }
+]

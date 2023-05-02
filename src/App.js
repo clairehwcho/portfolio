@@ -1,30 +1,21 @@
-import { Routes, Route } from 'react-router-dom';
-import Header from './components/Header/Header';
+import { Router } from 'react-router-dom';
 import './App.css';
-import AboutMe from './components/Main/AboutMe/AboutMe';
-import Portfolio from './components/Main/Portfolio/Portfolio';
-import Contact from './components/Main/Contact/Contact';
-import Resume from './components/Main/Resume/Resume';
-import Footer from './components/Footer';
-import ScrollButton from './components/ScrollButton';
+
+import Header from './components/structure/Header';
+import Main from './components/structure/Main';
+import Footer from './components/structure/Footer';
+import ScrollButton from './components/buttons/ScrollButton';
 
 function App () {
   return (
-    <div id="app">
-      <Header />
-      <hr />
-      <main>
-        <Routes>
-          <Route path="/" element={<AboutMe />} />
-          <Route path="/portfolio" element={<Portfolio />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/resume" element={<Resume />} />
-        </Routes>
-      </main>
-      <hr />
-      <Footer />
-      <ScrollButton />
-    </div >
+      <div id="app">
+        <Header />
+        <hr />
+        <Main />
+        <hr />
+        <Footer />
+        <ScrollButton />
+      </div >
   );
 }
 
