@@ -5,8 +5,8 @@
   --light: #E7E5DF;
   --medium: #b3afa9;
   --dark: #183547;
-  --highlight1: #44BBA4;
-  --highlight2: #E7BB41;
+  --green: #44BBA4;
+  --yellow: #E7BB41;
   --border-radius: 7px;
 }
 
@@ -56,12 +56,12 @@ header {
 }
 
 #logo h1:hover {
-  text-shadow: 0px 0px 10px var(--highlight2);
+  text-shadow: 0px 0px 10px var(--yellow);
   transition: all 0.1s ease-in-out;
 }
 
 #logo h1 span {
-  color: var(--highlight2);
+  color: var(--yellow);
 }
 
 #header-nav {
@@ -90,7 +90,7 @@ header {
 }
 
 #header-nav-ul li .link:hover {
-  color: var(--highlight2);
+  color: var(--yellow);
 }
 
 /* --- Main component --- */
@@ -159,7 +159,7 @@ header {
 }
 
 #intro-greeting {
-  color: var(--highlight1);
+  color: var(--green);
   font-size: 0.8rem;
   text-transform: uppercase;
   margin: 0;
@@ -185,7 +185,7 @@ header {
 }
 
 #about-me-section span {
-  color: var(--highlight1);
+  color: var(--green);
 }
 
 /* --- Portfolio component --- */
@@ -203,7 +203,7 @@ header {
 }
 
 .portfolio-card:hover {
-  box-shadow: 0px 0px 10px var(--highlight1);
+  box-shadow: 0px 0px 10px var(--green);
 }
 
 .portfolio-card-header {
@@ -215,12 +215,12 @@ header {
 }
 
 .portfolio-title {
-  color: var(--highlight2);
+  color: var(--yellow);
   font-weight: 700;
 }
 
 .portfolio-link {
-  color: var(--highlight1);
+  color: var(--green);
   font-weight: 700;
   display: flex;
   justify-content: center;
@@ -250,7 +250,7 @@ header {
 
 .portfolio-tech-list li {
   color: var(--base);
-  background-color: var(--highlight1);
+  background-color: var(--green);
   font-size: 0.8rem;
   font-weight: 600;
   margin: 0;
@@ -295,7 +295,7 @@ header {
 
 .error-message {
   font-size: 0.8rem;
-  color: var(--highlight1);
+  color: var(--green);
 }
 
 #form-btn-container {
@@ -307,17 +307,17 @@ header {
 
 #send-message-button {
   width: 40%;
-  color: var(--highlight2);
+  color: var(--yellow);
   background-color: unset;
   font-size: 1rem;
   font-weight: 600;
-  border: 1px solid var(--highlight2);
+  border: 1px solid var(--yellow);
   border-radius: var(--border-radius);
   padding: 0.5rem 2rem;
 }
 
 #send-message-button:hover {
-  box-shadow: 0px 0px 10px var(--highlight2);
+  box-shadow: 0px 0px 10px var(--yellow);
   transition: all 0.1s ease-in-out;
 }
 
@@ -333,7 +333,7 @@ header {
 }
 
 #resume-download-btn {
-  color: var(--highlight2);
+  color: var(--yellow);
 }
 
 #resume-download-btn:hover {
@@ -351,7 +351,7 @@ header {
 }
 
 #resume-section ul span {
-  color: var(--highlight1);
+  color: var(--green);
 }
 
 /* --- Footer component --- */
@@ -375,7 +375,7 @@ footer i {
 }
 
 footer i:hover {
-  color: var(--highlight2);
+  color: var(--yellow);
 }
 
 .footer-row:last-of-type {
@@ -388,7 +388,7 @@ footer i:hover {
 /* --- ScrollButton component --- */
 #scroll-btn {
   font-size: 2rem;
-  color: var(--highlight2);
+  color: var(--yellow);
   position: fixed;
   bottom: 20px;
   right: 30px;
@@ -397,7 +397,7 @@ footer i:hover {
 }
 
 #scroll-btn:hover {
-  color: var(--highlight1);
+  color: var(--green);
 
   cursor: pointer;
 }

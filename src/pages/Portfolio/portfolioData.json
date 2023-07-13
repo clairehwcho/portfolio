@@ -23,6 +23,25 @@
         "imageName": "luxbox.png"
     },
     {
+        "title": "Plan N Share",
+        "githubURL": "https://github.com/clairehwcho/plan-n-share",
+        "deployedURL": "http://52.26.40.24/",
+        "desc": "A Python Flask app where user can create an online to-do list that can be shareable with other users.",
+        "tech": [
+            "HTML",
+            "CSS",
+            "Bootstrap",
+            "JavaScript",
+            "Python",
+            "Flask",
+            "Jinja2",
+            "Pip",
+            "MySQL",
+            "AWS EC2"
+        ],
+        "imageName": "plan-n-share.jpeg"
+    },
+    {
         "title": "Bargain Bin Electronics",
         "githubURL": "https://github.com/clairehwcho/bargain-bin-electronics",
         "deployedURL": "http://bargain-bin-electronics.herokuapp.com/",

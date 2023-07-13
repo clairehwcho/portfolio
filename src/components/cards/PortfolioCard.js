@@ -5,7 +5,7 @@ const PortfolioCard = (props) => {
 
     return (
         <div className="portfolio-card-column">
-            <div className="portfolio-card" id="bargain-bin-electronics-portfolio-card">
+            <div className="portfolio-card">
                 <div className="portfolio-card-header">
                     <h5 className="portfolio-title">
                         {props.title}
