@@ -1,16 +1,16 @@
 import React from 'react';
-import portfolioData from './portfolioData.json';
-import PortfolioCard from '../../components/cards/PortfolioCard';
-import PortfolioPlaceholderCard from '../../components/cards/PortfolioPlaceholderCard';
+import projectsData from './projectsData.json';
+import ProjectCard from '../../components/cards/ProjectCard';
+import ProjectPlaceholderCard from '../../components/cards/ProjectPlaceholderCard';
 
-const Portfolio = (props) => {
+const Projects = (props) => {
     return (
-        <section className="main-content-section" id="portfolio-section">
-            <h2 className="main-content-section-header">Portfolio</h2>
+        <section className="main-content-section" id="projects-section">
+            <h2 className="main-content-section-header">Projects</h2>
             <div className="main-content-section-body">
-                {portfolioData.map((project, i) => {
+                {projectsData.map((project, i) => {
                     return (
-                        <PortfolioCard
+                        <ProjectCard
                             key={i}
                             title={project.title}
                             githubURL={project.githubURL}
@@ -21,10 +21,10 @@ const Portfolio = (props) => {
                         />
                     )
                 })}
-                <PortfolioPlaceholderCard />
+                <ProjectPlaceholderCard />
             </div >
         </section>
     );
 };
 
-export default Portfolio;
+export default Projects;

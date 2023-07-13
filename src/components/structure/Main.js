@@ -2,7 +2,7 @@ import { Routes, Route } from 'react-router-dom';
 import React from 'react';
 
 import AboutMe from '../../pages/AboutMe';
-import Portfolio from '../../pages/Portfolio';
+import Projects from '../../pages/Projects';
 import Contact from '../../pages/Contact';
 import Resume from '../../pages/Resume';
 
@@ -11,7 +11,7 @@ const Main = (props) => {
         <main>
             <Routes>
                 <Route path="/" element={<AboutMe />} />
-                <Route path="/portfolio" element={<Portfolio />} />
+                <Route path="/projects" element={<Projects />} />
                 <Route path="/contact" element={<Contact />} />
                 <Route path="/resume" element={<Resume />} />
             </Routes>

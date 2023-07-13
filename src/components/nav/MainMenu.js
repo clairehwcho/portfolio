@@ -9,7 +9,7 @@ const Navigation = (props) => {
                     <Link to="/" className="link">About me</Link>
                 </li>
                 <li>
-                    <Link to="/portfolio" className="link">Portfolio</Link>
+                    <Link to="/projects" className="link">Projects</Link>
                 </li>
                 <li>
                     <Link to="/contact" className="link">Contact</Link>

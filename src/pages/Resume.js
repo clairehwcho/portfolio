@@ -19,7 +19,7 @@ const Resume = (props) => {
                     </li>
                     <li>
                         Frameworks/Libraries:
-                        <span> Express, Flask, Jinja2, Spring Boot, jQuery, React, Bootstrap, Materialize</span>
+                        <span> Express, Flask, Jinja2, Spring Boot, jQuery, React, Bootstrap, Materialize, Material UI</span>
                     </li>
                     <li>
                         Databases:

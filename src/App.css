@@ -188,8 +188,8 @@ header {
   color: var(--green);
 }
 
-/* --- Portfolio component --- */
-.portfolio-card {
+/* --- Projects component --- */
+.project-card {
   width: 100%;
   height: fit-content;
   background-color: var(--dark);
@@ -202,11 +202,11 @@ header {
   transition: all 0.5s linear;
 }
 
-.portfolio-card:hover {
+.project-card:hover {
   box-shadow: 0px 0px 10px var(--green);
 }
 
-.portfolio-card-header {
+.project-card-header {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -214,12 +214,12 @@ header {
   flex-wrap: wrap;
 }
 
-.portfolio-title {
+.project-title {
   color: var(--yellow);
   font-weight: 700;
 }
 
-.portfolio-link {
+.project-link {
   color: var(--green);
   font-weight: 700;
   display: flex;
@@ -227,19 +227,19 @@ header {
   align-items: center;
 }
 
-.portfolio-link .link:hover {
+.project-link .link:hover {
   text-decoration: underline;
 }
 
-.portfolio-link span {
+.project-link span {
   margin: 0 0.5rem;
 }
 
-.portfolio-card-body {
+.project-card-body {
   width: 100%;
 }
 
-.portfolio-tech-list {
+.project-tech-list {
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -248,7 +248,7 @@ header {
   gap: 0.5rem;
 }
 
-.portfolio-tech-list li {
+.project-tech-list li {
   color: var(--base);
   background-color: var(--green);
   font-size: 0.8rem;
@@ -257,11 +257,11 @@ header {
   padding: 0 0.5rem;
 }
 
-.portfolio-img {
+.project-img {
   width: 100%;
 }
 
-.portfolio-img img {
+.project-img img {
   width: 100%;
 }
 
