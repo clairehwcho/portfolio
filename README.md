@@ -7,7 +7,7 @@ This is a single-page portfolio app using react with responsive designs with mob
 
 
 You can check out the deployed application from the link below:<br>
-[https://clairehwcho.github.io/portfolio-react-app/](https://clairehwcho.github.io/portfolio-react-app/)
+[https://clairehwcho.github.io/portfolio/](https://clairehwcho.github.io/portfolio/)
 
 <!-- omit in toc -->
 ## Table of Contents
