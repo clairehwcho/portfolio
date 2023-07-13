@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/portfolio/static/css/main.ba27a634.css",
+    "main.js": "/portfolio/static/js/main.9d7c9fa9.js",
+    "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/luxbox.png": "/portfolio/static/media/luxbox.0601b88978a28bba162d.png",
+    "static/media/roadtrip-weather-planner.png": "/portfolio/static/media/roadtrip-weather-planner.8b92e3ae506f2db6aff7.png",
+    "static/media/bargain-bin-electronics.jpeg": "/portfolio/static/media/bargain-bin-electronics.2a6370d5bb059b7fdeff.jpeg",
+    "static/media/plan-n-share.jpeg": "/portfolio/static/media/plan-n-share.f06674d90d77948922b4.jpeg",
+    "static/media/coder.png": "/portfolio/static/media/coder.e509a7037057a3c2a451.png",
+    "static/media/bootstrap-icons.woff?": "/portfolio/static/media/bootstrap-icons.4753c5ba57962b4d7bf8.woff",
+    "static/media/bootstrap-icons.woff2?": "/portfolio/static/media/bootstrap-icons.6d63d0501e5ed7b79dab.woff2",
+    "static/media/project-placeholder.jpg": "/portfolio/static/media/project-placeholder.05760cbc92d1ff8187a7.jpg",
+    "index.html": "/portfolio/index.html",
+    "main.ba27a634.css.map": "/portfolio/static/css/main.ba27a634.css.map",
+    "main.9d7c9fa9.js.map": "/portfolio/static/js/main.9d7c9fa9.js.map",
+    "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ba27a634.css",
+    "static/js/main.9d7c9fa9.js"
+  ]
+}
