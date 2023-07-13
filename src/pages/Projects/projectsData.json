@@ -18,7 +18,8 @@
             "Mongoose",
             "Stripe",
             "JSON Web Tokens",
-            "Heroku"
+            "Heroku",
+            "Responsive Design"
         ],
         "imageName": "luxbox.png"
     },
@@ -37,7 +38,8 @@
             "Jinja2",
             "Pip",
             "MySQL",
-            "AWS EC2"
+            "AWS EC2",
+            "Responsive Design"
         ],
         "imageName": "plan-n-share.jpeg"
     },
