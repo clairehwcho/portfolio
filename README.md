@@ -1,5 +1,5 @@
 <!-- omit in toc -->
-# Portfolio React App
+# Portfolio
 
 <!-- omit in toc -->
 ## Description
