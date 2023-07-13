@@ -184,8 +184,22 @@ header {
   white-space: nowrap;
 }
 
-#about-me-section span {
+.tech-ul {
+  font-size: 80%;
+  list-style: circle;
+  padding: 0 0 0 1rem;
+}
+
+.tech-ul li {
+  margin: 5px 0px;
+}
+
+.tech-ul span {
   color: var(--green);
+}
+
+#about-me-section p:last-of-type span {
+  color: var(--yellow);
 }
 
 /* --- Projects component --- */
@@ -319,39 +333,6 @@ header {
 #send-message-button:hover {
   box-shadow: 0px 0px 10px var(--yellow);
   transition: all 0.1s ease-in-out;
-}
-
-/* --- Resume component --- */
-#resume-section {
-  width: 290px;
-  margin: 0 auto;
-}
-
-#resume-section p {
-  margin: 0.5rem 0;
-  padding: 0;
-}
-
-#resume-download-btn {
-  color: var(--yellow);
-}
-
-#resume-download-btn:hover {
-  text-decoration: underline;
-}
-
-#resume-section ul {
-  font-size: 80%;
-  list-style: circle;
-  padding: 0 0 0 1rem;
-}
-
-#resume-section li {
-  margin: 5px 0px;
-}
-
-#resume-section ul span {
-  color: var(--green);
 }
 
 /* --- Footer component --- */

@@ -1,4 +1,3 @@
-import { Router } from 'react-router-dom';
 import './App.css';
 
 import Header from './components/structure/Header';

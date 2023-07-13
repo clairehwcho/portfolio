@@ -34,6 +34,24 @@ const AboutMe = (props) => {
                 <div className="main-content-section-body-row">
                     <p>Hi! My name is Hyung Won, but you can also call me Claire. I am a full stack developer who can get a project done from start to finish.</p>
                     <p>My previous work experiences as a conference coordinator and a coworking space manager have led me to become both a problem-solver and a multi-tasker.</p>
+                    <p>Technologies that I can use:</p>
+                    <ul className="tech-ul">
+                        <li>
+                            Languages:
+                            <span> Python, Java, JavaScript (ES6, Node.js), HTML5, CSS, SQL</span>
+                        </li>
+                        <li>
+                            Frameworks/Libraries:
+                            <span> Express, Flask, Jinja2, Spring Boot, jQuery, React, Bootstrap, Materialize, Material UI</span>
+                        </li>
+                        <li>
+                            Databases:
+                            <span> MySQL, MongoDB</span>
+                        </li>
+                        <li>Tools:
+                            <span> Visual Studio Code, AJAX, Spring Tool Suite, MySQL Workbench, Postman, Insomnia, AWS(EC2), Git, Github, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator</span>
+                        </li>
+                    </ul>
                     <p>Check out my <Link to="/projects" className="link"><span>projects</span></Link> and <Link to="/resume" className="link"><span>resume</span></Link> to learn more about me!</p>
                 </div>
             </div>
