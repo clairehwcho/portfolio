@@ -4,6 +4,10 @@ import coder from '../assets/img/profile/coder.png';
 import { TypeAnimation } from 'react-type-animation';
 
 const AboutMe = (props) => {
+    const tbu = () => {
+        alert("Will be uploaded soon!");
+    };
+
     return (
         <section className="main-content-section" id="about-me-section">
             <h2 className="main-content-section-header">About Me</h2>
@@ -52,7 +56,7 @@ const AboutMe = (props) => {
                             <span> Visual Studio Code, AJAX, Spring Tool Suite, MySQL Workbench, Postman, Insomnia, AWS(EC2), Git, Github, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator</span>
                         </li>
                     </ul>
-                    <p>Check out my <Link to="/projects" className="link"><span>projects</span></Link> and <Link to="/resume" className="link"><span>resume</span></Link> to learn more about me!</p>
+                    <p>Check out my <Link to="/projects" className="link"><span>projects</span></Link> and <Link to="" onClick={tbu} className="link"><span>resume</span></Link> to learn more about me!</p>
                 </div>
             </div>
         </section >
