@@ -26,7 +26,7 @@
     {
         "title": "Plan N Share",
         "githubURL": "https://github.com/clairehwcho/plan-n-share",
-        "deployedURL": "http://52.26.40.24/",
+        "deployedURL": "https://plan-n-share-a6b05f51d3c8.herokuapp.com/",
         "desc": "A Python Flask app where user can create an online to-do list that can be shareable with other users.",
         "tech": [
             "HTML",
@@ -38,7 +38,7 @@
             "Jinja2",
             "Pip",
             "MySQL",
-            "AWS EC2",
+            "Heroku",
             "Responsive Design"
         ],
         "imageName": "plan-n-share.jpeg"
