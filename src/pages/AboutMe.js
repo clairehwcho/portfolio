@@ -56,21 +56,7 @@ const AboutMe = (props) => {
                             <span> Visual Studio Code, AJAX, Spring Tool Suite, MySQL Workbench, Postman, Insomnia, AWS(EC2), Git, Github, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator</span>
                         </li>
                     </ul>
-                    <p>Check these out to learn more about me!</p>
-                    <ul className="link-ul">
-                        <li>
-                            <Link to="/projects" className="link"><button className="outlined-button about-me-button">Projects</button></Link>
-                        </li>
-                        <li>
-                            <Link to="" onClick={tbu} className="link"><button className="outlined-button about-me-button">Resume</button></Link>
-                        </li>
-                        <li>
-                            <Link to="https://github.com/clairehwcho" target="_blank" className="link"><button className="outlined-button about-me-button">GitHub</button></Link>
-                        </li>
-                        <li>
-                            <Link to="https://www.linkedin.com/in/hyungwoncho/" target="_blank" className="link"><button className="outlined-button about-me-button">LinkedIn</button></Link>
-                        </li>
-                    </ul>
+                    <p>Check my <Link to="/projects" className="link"><span className="about-me-link">projects</span></Link> and <Link to="" onClick={tbu} className="link"><span className="about-me-link">resume</span></Link> to learn more about me!</p>
                 </div>
             </div>
         </section >
