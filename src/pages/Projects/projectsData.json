@@ -1,8 +1,8 @@
 [
     {
         "title": "LuxBox",
-        "githubURL": "https://github.com/clairehwcho/luxbox-mern-app",
-        "deployedURL": "https://luxbox-mern-app.herokuapp.com/",
+        "githubURL": "https://github.com/clairehwcho/luxbox",
+        "deployedURL": "https://luxbox-b3b38e53281d.herokuapp.com/",
         "desc": "A group project to build a MERN app for an e-commerce platform where users can shop luxury goods.",
         "tech": [
             "HTML",
