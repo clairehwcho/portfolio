@@ -194,7 +194,7 @@ const EmailForm = (props) => {
                 {message.touched && message.hasError && <div className="error-message mt-2">* Message is required.</div>}
             </div>
             <div className="form-group mb-4" id="form-btn-container">
-                <button id="send-message-button" type="submit">Send</button>
+                <button className="outlined-button" id="send-message-button" type="submit">Send</button>
                 {submit.isSubmitted && <div className="error-message mt-2">* Your message has been successfully sent!</div>}
                 {!validate.isValidated && <div className="error-message mt-2">* Please fill out the form correctly.</div>}
             </div>

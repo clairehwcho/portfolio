@@ -27,6 +27,23 @@ hr {
   border: 0.5px solid var(--medium);
 }
 
+.outlined-button {
+  width: 40%;
+  color: var(--yellow);
+  background-color: unset;
+  font-size: 1rem;
+  font-weight: 600;
+  border: 1px solid var(--yellow);
+  border-radius: var(--border-radius);
+  padding: 0.5rem 2rem;
+}
+
+.outlined-button:hover {
+  box-shadow: 0px 0px 10px var(--yellow);
+  transition: all 0.1s ease-in-out;
+}
+
+
 /* --- Header component --- */
 header {
   width: 100%;
@@ -198,9 +215,17 @@ header {
   color: var(--green);
 }
 
-#about-me-section p:last-of-type span {
-  color: var(--yellow);
+.link-ul {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
 }
+
+.about-me-button {
+  width: fit-content;
+
+}
+
 
 /* --- Projects component --- */
 .project-card {
@@ -317,22 +342,6 @@ header {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-
-#send-message-button {
-  width: 40%;
-  color: var(--yellow);
-  background-color: unset;
-  font-size: 1rem;
-  font-weight: 600;
-  border: 1px solid var(--yellow);
-  border-radius: var(--border-radius);
-  padding: 0.5rem 2rem;
-}
-
-#send-message-button:hover {
-  box-shadow: 0px 0px 10px var(--yellow);
-  transition: all 0.1s ease-in-out;
 }
 
 /* --- Footer component --- */
