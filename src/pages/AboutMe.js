@@ -1,7 +1,7 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import coder from '../assets/img/profile/coder.png';
-import { TypeAnimation } from 'react-type-animation';
+import React from "react";
+import { Link } from "react-router-dom";
+import coder from "../assets/img/profile/coder.png";
+import { TypeAnimation } from "react-type-animation";
 
 const AboutMe = (props) => {
     const tbu = () => {
@@ -56,7 +56,7 @@ const AboutMe = (props) => {
                             <span> Visual Studio Code, AJAX, Spring Tool Suite, MySQL Workbench, Postman, Insomnia, AWS(EC2), Git, Github, Adobe Premiere Pro, Adobe Photoshop, Adobe Illustrator</span>
                         </li>
                     </ul>
-                    <p>Check my <Link to="/projects" className="link"><span className="about-me-link">projects</span></Link> and <Link to="" onClick={tbu} className="link"><span className="about-me-link">resume</span></Link> to learn more about me!</p>
+                    <p>Check my <Link to="/projects" className="link"><span className="about-me-link">projects</span></Link> and <Link to="https://docs.google.com/document/d/1Ky77JxGOYP1ZG8Q88lR58itz5aNDa3eJSByYPFZ4yE0/edit" target="_blank" className="link"><span className="about-me-link">resume</span></Link> to learn more about me!</p>
                 </div>
             </div>
         </section >

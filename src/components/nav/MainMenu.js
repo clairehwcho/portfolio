@@ -19,7 +19,7 @@ const Navigation = (props) => {
                     <Link to="/contact" className="link">Contact</Link>
                 </li>
                 <li>
-                    <Link to="" onClick={tbu} className="link">Resume</Link>
+                    <Link to="https://docs.google.com/document/d/1Ky77JxGOYP1ZG8Q88lR58itz5aNDa3eJSByYPFZ4yE0/edit" target="_blank" className="link">Resume</Link>
                 </li>
             </ul>
         </nav>
