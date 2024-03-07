@@ -3,7 +3,7 @@
         "title": "LuxBox",
         "githubURL": "https://github.com/clairehwcho/luxbox",
         "deployedURL": "https://luxbox-b3b38e53281d.herokuapp.com/",
-        "desc": "A group project to build a MERN app for an e-commerce platform where users can shop luxury goods.",
+        "desc": "A group project to build an e-commerce platform web app for shopping women's luxury items.",
         "tech": [
             "HTML",
             "CSS",
@@ -26,7 +26,7 @@
         "title": "Plan N Share",
         "githubURL": "https://github.com/clairehwcho/plan-n-share",
         "deployedURL": "https://plan-n-share-a6b05f51d3c8.herokuapp.com/",
-        "desc": "A Python Flask app where user can create an online to-do list that can be shareable with other users.",
+        "desc": "An individual project to build a to-do list web app for individual and team users.",
         "tech": [
             "HTML",
             "CSS",
@@ -46,7 +46,7 @@
         "title": "Bargain Bin Electronics",
         "githubURL": "https://github.com/clairehwcho/bargain-bin-electronics",
         "deployedURL": "http://bargain-bin-electronics.herokuapp.com/",
-        "desc": "A group project to build an e-commerce marketplace app for buying and selling electronic items.",
+        "desc": "A group project to build an e-commerce marketplace web app for buying and selling electronic items.",
         "tech": [
             "HTML",
             "CSS",
