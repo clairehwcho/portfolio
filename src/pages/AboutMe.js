@@ -21,9 +21,16 @@ const AboutMe = (props) => {
                         <p id="intro-name">I'm Claire.</p>
                         <TypeAnimation
                             sequence={[
-                                `I'm a full stack developer.`,
-                                5000,
-                                '',
+                                ``,
+                                `I'm a full-stack developer.`,
+                                3000,
+                                ``,
+                                `I'm a front-end developer.`,
+                                3000,
+                                ``,
+                                `I'm a back-end developer.`,
+                                3000,
+                                ``
                             ]}
                             wrapper="p"
                             speed={40}
@@ -36,8 +43,8 @@ const AboutMe = (props) => {
                 </div>
 
                 <div className="main-content-section-body-row">
-                    <p>Hi! My name is Hyung Won, but you can also call me Claire. I am a full stack developer who can get a project done from start to finish.</p>
-                    <p>Drawing from extensive experience as a Community Program Manager and Conference Project Manager in the hospitality industry, I've demonstrated proficiency in managing concurrent projects while ensuring alignment with organizational goals. By melding my background in hospitality with robust coding skills acquired through coding bootcamps, I am ready to thrive as a full-stack software engineer, bringing a distinct fusion of customer-centricity and technical proficiency to make impactful contributions in this dynamic field of software engineering!</p>
+                    <p>Hi! My name is Hyung Won, but you can also call me Claire. I am a full-stack developer who can get a project done from start to finish.</p>
+                    <p>With extensive experience as a Community Program Manager and Conference Project Manager in the hospitality industry, I've demonstrated proficiency in managing concurrent customer-focused programs and projects while ensuring alignment with organizational goals. Combining my background in hospitality with robust coding skills acquired through coding bootcamps, I am ready to thrive as a software engineer, bringing a distinct blend of customer-centricity and technical proficiency to make impactful contributions in this dynamic field of software engineering!</p>
                     <p>Here are the technologies that I can use:</p>
                     <ul className="tech-ul">
                         <li>
