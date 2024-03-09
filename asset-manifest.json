@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.47a779ca.css",
-    "main.js": "/portfolio/static/js/main.6b42dec5.js",
+    "main.js": "/portfolio/static/js/main.57414c2d.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/luxbox.png": "/portfolio/static/media/luxbox.0601b88978a28bba162d.png",
     "static/media/roadtrip-weather-planner.png": "/portfolio/static/media/roadtrip-weather-planner.8b92e3ae506f2db6aff7.png",
@@ -13,11 +13,11 @@
     "static/media/project-placeholder.jpg": "/portfolio/static/media/project-placeholder.05760cbc92d1ff8187a7.jpg",
     "index.html": "/portfolio/index.html",
     "main.47a779ca.css.map": "/portfolio/static/css/main.47a779ca.css.map",
-    "main.6b42dec5.js.map": "/portfolio/static/js/main.6b42dec5.js.map",
+    "main.57414c2d.js.map": "/portfolio/static/js/main.57414c2d.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.47a779ca.css",
-    "static/js/main.6b42dec5.js"
+    "static/js/main.57414c2d.js"
   ]
 }
