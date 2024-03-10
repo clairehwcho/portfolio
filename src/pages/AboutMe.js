@@ -53,7 +53,7 @@ const AboutMe = (props) => {
                         </li>
                         <li>
                             Frameworks/Libraries:
-                            <span> Express, Flask, Jinja2, Spring Boot, jQuery, React, Bootstrap, Materialize, Material UI</span>
+                            <span> React.js, Express.js, jQuery, Flask, Jinja2, Spring Boot, Bootstrap, Materialize, Material UI</span>
                         </li>
                         <li>
                             Databases:
