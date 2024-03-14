@@ -44,7 +44,7 @@ const AboutMe = (props) => {
 
                 <div className="main-content-section-body-row">
                     <p>Hi! My name is Hyung Won, but you can also call me Claire. I am a full-stack developer who can get a project done from start to finish.</p>
-                    <p>With extensive experience as a Community Program Manager and Conference Project Manager in the hospitality industry, I successfully led customer-centric initiatives. Combining my background in hospitality with robust coding skills acquired through coding bootcamps, I am ready to thrive as a full-stack software engineer, bringing a distinct blend of customer-centricity and technical proficiency to make impactful contributions in this dynamic field of software engineering!</p>
+                    <p>With extensive experience as a Community Program Manager and Conference Project Manager in the hospitality industry, I've successfully led customer-centric initiatives. Merging my expertise in hospitality with proficiency in both frontend and backend development, I am well-prepared to thrive as a full-stack software engineer. I aim to make impactful contributions to the dynamic field of software engineering through a unique blend of customer-centricity and technical proficiency.</p>
                     <p>Here are the technologies that I can use:</p>
                     <ul className="tech-ul">
                         <li>
