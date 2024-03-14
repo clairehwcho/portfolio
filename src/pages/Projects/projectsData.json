@@ -3,7 +3,7 @@
         "title": "LuxBox",
         "githubURL": "https://github.com/clairehwcho/luxbox",
         "deployedURL": "https://luxbox-b3b38e53281d.herokuapp.com/",
-        "desc": "A group project to build an e-commerce platform web app for shopping women's luxury items.",
+        "desc": "A group project to develop an e-commerce platform web app for luxury women's items.",
         "tech": [
             "React.js",
             "JavaScript",
@@ -46,7 +46,7 @@
         "title": "Bargain Bin Electronics",
         "githubURL": "https://github.com/clairehwcho/bargain-bin-electronics",
         "deployedURL": "http://bargain-bin-electronics.herokuapp.com/",
-        "desc": "A group project to build an e-commerce marketplace web app for buying and selling electronic items.",
+        "desc": "A group project to develop an e-commerce marketplace web app for buying and selling electronic items.",
         "tech": [
             "JavaScript",
             "Node.js",
@@ -65,7 +65,7 @@
         "title": "Roadtrip Weather Planner",
         "githubURL": "https://github.com/clairehwcho/road-trip-weather-planner",
         "deployedURL": "https://clairehwcho.github.io/road-trip-weather-planner/",
-        "desc": "A group project to provide the weather forecast for cities you are travelling to by fetching city coordinates and weather conditions data from third-party APIs.",
+        "desc": "A group project to develop an app that offers weather forecasts for travel destinations by fetching city coordinates and weather conditions data from third-party APIs.",
         "tech": [
             "JavaScript",
             "HTML",
